@@ -16,5 +16,38 @@ namespace Census_Program_Project_4
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnClear_Click(object sender, EventArgs e)
+        {
+            txtNumOfBathrooms.Clear();
+            txtNumOfPersons.Clear();
+            txtHouseholdIncome.Clear();
+
+            txtAvgNumBaths.Clear();
+            txtAvgNumPersons.Clear();
+            txtAvgHouseholdIncome.Clear();
+
+            lbOutputList.ClearSelected();
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
