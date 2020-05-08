@@ -12,6 +12,9 @@ namespace Census_Program_Project_4
 {
     public partial class Form1 : Form
     {
+        private int listCounter = 0;
+        private double houseOne = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -49,5 +52,187 @@ namespace Census_Program_Project_4
         {
             this.Close();
         }
+
+        private void btnHouseOne_Click(object sender, EventArgs e)
+        {
+            double numOfBaths = 0;
+            double numOfPersons = 0;
+            double householdIncome = 0;
+
+            numOfBaths = Convert.ToDouble(txtNumOfBathrooms.Text);
+            numOfPersons = Convert.ToDouble(txtNumOfPersons.Text);
+            householdIncome = Convert.ToDouble(txtHouseholdIncome.Text);
+
+            listCounter++;
+            lbOutputList.Items.Add(listCounter + "        Baths: " + numOfBaths + "        Persons: " + numOfPersons + "           " + "Income: " + householdIncome);
+
+            ProcessHouse();
+        }
+
+        private void btnHouseTwo_Click(object sender, EventArgs e)
+        {
+            double numOfBaths = 0;
+            double numOfPersons = 0;
+            double householdIncome = 0;
+
+            numOfBaths = Convert.ToDouble(txtNumOfBathrooms.Text);
+            numOfPersons = Convert.ToDouble(txtNumOfPersons.Text);
+            householdIncome = Convert.ToDouble(txtHouseholdIncome.Text);
+
+            listCounter++;
+            lbOutputList.Items.Add(listCounter + "        Baths: " + numOfBaths + "        Persons: " + numOfPersons + "           " + "Income: " + householdIncome);
+
+            ProcessHouse();
+        }
+
+        private void btnHouseThree_Click(object sender, EventArgs e)
+        {
+            double numOfBaths = 0;
+            double numOfPersons = 0;
+            double householdIncome = 0;
+
+            numOfBaths = Convert.ToDouble(txtNumOfBathrooms.Text);
+            numOfPersons = Convert.ToDouble(txtNumOfPersons.Text);
+            householdIncome = Convert.ToDouble(txtHouseholdIncome.Text);
+
+            listCounter++;
+            lbOutputList.Items.Add(listCounter + "        Baths: " + numOfBaths + "        Persons: " + numOfPersons + "           " + "Income: " + householdIncome);
+
+            ProcessHouse();
+        }
+
+        private void btnHouseFour_Click(object sender, EventArgs e)
+        {
+            double numOfBaths = 0;
+            double numOfPersons = 0;
+            double householdIncome = 0;
+
+            numOfBaths = Convert.ToDouble(txtNumOfBathrooms.Text);
+            numOfPersons = Convert.ToDouble(txtNumOfPersons.Text);
+            householdIncome = Convert.ToDouble(txtHouseholdIncome.Text);
+
+            listCounter++;
+            lbOutputList.Items.Add(listCounter + "        Baths: " + numOfBaths + "        Persons: " + numOfPersons + "           " + "Income: " + householdIncome);
+
+            ProcessHouse();
+        }
+
+        private void btnHouseFive_Click(object sender, EventArgs e)
+        {
+            double numOfBaths = 0;
+            double numOfPersons = 0;
+            double householdIncome = 0;
+
+            numOfBaths = Convert.ToDouble(txtNumOfBathrooms.Text);
+            numOfPersons = Convert.ToDouble(txtNumOfPersons.Text);
+            householdIncome = Convert.ToDouble(txtHouseholdIncome.Text);
+
+            listCounter++;
+            lbOutputList.Items.Add(listCounter + "        Baths: " + numOfBaths + "        Persons: " + numOfPersons + "           " + "Income: " + householdIncome);
+
+            ProcessHouse();
+        }
+
+        private void btnHouseSix_Click(object sender, EventArgs e)
+        {
+            double numOfBaths = 0;
+            double numOfPersons = 0;
+            double householdIncome = 0;
+
+            numOfBaths = Convert.ToDouble(txtNumOfBathrooms.Text);
+            numOfPersons = Convert.ToDouble(txtNumOfPersons.Text);
+            householdIncome = Convert.ToDouble(txtHouseholdIncome.Text);
+
+            listCounter++;
+            lbOutputList.Items.Add(listCounter + "        Baths: " + numOfBaths + "        Persons: " + numOfPersons + "           " + "Income: " + householdIncome);
+
+            ProcessHouse();
+        }
+
+        private void btnHouseSeven_Click(object sender, EventArgs e)
+        {
+            double numOfBaths = 0;
+            double numOfPersons = 0;
+            double householdIncome = 0;
+
+            numOfBaths = Convert.ToDouble(txtNumOfBathrooms.Text);
+            numOfPersons = Convert.ToDouble(txtNumOfPersons.Text);
+            householdIncome = Convert.ToDouble(txtHouseholdIncome.Text);
+
+            listCounter++;
+            lbOutputList.Items.Add(listCounter + "        Baths: " + numOfBaths + "        Persons: " + numOfPersons + "           " + "Income: " + householdIncome);
+
+            ProcessHouse();
+        }
+
+        private void btnHouseEight_Click(object sender, EventArgs e)
+        {
+            double numOfBaths = 0;
+            double numOfPersons = 0;
+            double householdIncome = 0;
+
+            numOfBaths = Convert.ToDouble(txtNumOfBathrooms.Text);
+            numOfPersons = Convert.ToDouble(txtNumOfPersons.Text);
+            householdIncome = Convert.ToDouble(txtHouseholdIncome.Text);
+
+            listCounter++;
+            lbOutputList.Items.Add(listCounter + "        Baths: " + numOfBaths + "        Persons: " + numOfPersons + "           " + "Income: " + householdIncome);
+
+            ProcessHouse();
+        }
+
+        private void btnHouseNine_Click(object sender, EventArgs e)
+        {
+            double numOfBaths = 0;
+            double numOfPersons = 0;
+            double householdIncome = 0;
+
+            numOfBaths = Convert.ToDouble(txtNumOfBathrooms.Text);
+            numOfPersons = Convert.ToDouble(txtNumOfPersons.Text);
+            householdIncome = Convert.ToDouble(txtHouseholdIncome.Text);
+
+            listCounter++;
+            lbOutputList.Items.Add(listCounter + "        Baths: " + numOfBaths + "        Persons: " + numOfPersons + "           " + "Income: " + householdIncome);
+
+            ProcessHouse();
+        }
+
+        private void btnHouseTen_Click(object sender, EventArgs e)
+        {
+            double numOfBaths = 0;
+            double numOfPersons = 0;
+            double householdIncome = 0;
+
+            numOfBaths = Convert.ToDouble(txtNumOfBathrooms.Text);
+            numOfPersons = Convert.ToDouble(txtNumOfPersons.Text);
+            householdIncome = Convert.ToDouble(txtHouseholdIncome.Text);
+
+            listCounter++;
+            lbOutputList.Items.Add(listCounter + "        Baths: " + numOfBaths + "        Persons: " + numOfPersons + "           " + "Income: " + householdIncome);
+
+            ProcessHouse();
+        }
+
+        public void ProcessHouse()
+        {
+            AverageBaths();
+            //AveragePersons();
+            //AverageIncome();
+        }
+
+        private double AverageBaths()
+        {
+
+        }
+
+        //private double AveragePersons()
+        //{
+
+        //}
+
+        //private double AverageIncome()
+        //{
+
+        //}
     }
 }

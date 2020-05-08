@@ -43,24 +43,34 @@
             this.label9 = new System.Windows.Forms.Label();
             this.lbOutputList = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnHouseTen = new System.Windows.Forms.Button();
+            this.btnHouseNine = new System.Windows.Forms.Button();
+            this.btnHouseEight = new System.Windows.Forms.Button();
+            this.btnHouseSeven = new System.Windows.Forms.Button();
+            this.btnHouseSix = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
+            this.btnHouseFive = new System.Windows.Forms.Button();
+            this.btnHouseFour = new System.Windows.Forms.Button();
+            this.btnHouseThree = new System.Windows.Forms.Button();
+            this.btnHouseTwo = new System.Windows.Forms.Button();
+            this.btnHouseOne = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             lblOutput = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // lblOutput
+            // 
+            lblOutput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            lblOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            lblOutput.Location = new System.Drawing.Point(140, 100);
+            lblOutput.Name = "lblOutput";
+            lblOutput.Size = new System.Drawing.Size(127, 22);
+            lblOutput.TabIndex = 43;
+            lblOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtNumOfBathrooms
             // 
@@ -172,19 +182,19 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button8);
-            this.groupBox1.Controls.Add(this.button9);
-            this.groupBox1.Controls.Add(this.button10);
-            this.groupBox1.Controls.Add(this.button11);
-            this.groupBox1.Controls.Add(this.button12);
+            this.groupBox1.Controls.Add(this.btnHouseTen);
+            this.groupBox1.Controls.Add(this.btnHouseNine);
+            this.groupBox1.Controls.Add(this.btnHouseEight);
+            this.groupBox1.Controls.Add(this.btnHouseSeven);
+            this.groupBox1.Controls.Add(this.btnHouseSix);
             this.groupBox1.Controls.Add(lblOutput);
             this.groupBox1.Controls.Add(this.btnExit);
             this.groupBox1.Controls.Add(this.btnClear);
-            this.groupBox1.Controls.Add(this.button5);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.btnHouseFive);
+            this.groupBox1.Controls.Add(this.btnHouseFour);
+            this.groupBox1.Controls.Add(this.btnHouseThree);
+            this.groupBox1.Controls.Add(this.btnHouseTwo);
+            this.groupBox1.Controls.Add(this.btnHouseOne);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(15, 12);
@@ -193,15 +203,60 @@
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             // 
-            // lblOutput
+            // btnHouseTen
             // 
-            lblOutput.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            lblOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            lblOutput.Location = new System.Drawing.Point(140, 100);
-            lblOutput.Name = "lblOutput";
-            lblOutput.Size = new System.Drawing.Size(127, 22);
-            lblOutput.TabIndex = 43;
-            lblOutput.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btnHouseTen.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnHouseTen.Location = new System.Drawing.Point(313, 167);
+            this.btnHouseTen.Name = "btnHouseTen";
+            this.btnHouseTen.Size = new System.Drawing.Size(76, 40);
+            this.btnHouseTen.TabIndex = 11;
+            this.btnHouseTen.Text = "House 10";
+            this.btnHouseTen.UseVisualStyleBackColor = false;
+            this.btnHouseTen.Click += new System.EventHandler(this.btnHouseTen_Click);
+            // 
+            // btnHouseNine
+            // 
+            this.btnHouseNine.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnHouseNine.Location = new System.Drawing.Point(240, 165);
+            this.btnHouseNine.Name = "btnHouseNine";
+            this.btnHouseNine.Size = new System.Drawing.Size(67, 42);
+            this.btnHouseNine.TabIndex = 10;
+            this.btnHouseNine.Text = "House 9";
+            this.btnHouseNine.UseVisualStyleBackColor = false;
+            this.btnHouseNine.Click += new System.EventHandler(this.btnHouseNine_Click);
+            // 
+            // btnHouseEight
+            // 
+            this.btnHouseEight.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnHouseEight.Location = new System.Drawing.Point(167, 165);
+            this.btnHouseEight.Name = "btnHouseEight";
+            this.btnHouseEight.Size = new System.Drawing.Size(67, 42);
+            this.btnHouseEight.TabIndex = 9;
+            this.btnHouseEight.Text = "House 8";
+            this.btnHouseEight.UseVisualStyleBackColor = false;
+            this.btnHouseEight.Click += new System.EventHandler(this.btnHouseEight_Click);
+            // 
+            // btnHouseSeven
+            // 
+            this.btnHouseSeven.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnHouseSeven.Location = new System.Drawing.Point(94, 165);
+            this.btnHouseSeven.Name = "btnHouseSeven";
+            this.btnHouseSeven.Size = new System.Drawing.Size(67, 42);
+            this.btnHouseSeven.TabIndex = 8;
+            this.btnHouseSeven.Text = "House 7";
+            this.btnHouseSeven.UseVisualStyleBackColor = false;
+            this.btnHouseSeven.Click += new System.EventHandler(this.btnHouseSeven_Click);
+            // 
+            // btnHouseSix
+            // 
+            this.btnHouseSix.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnHouseSix.Location = new System.Drawing.Point(21, 165);
+            this.btnHouseSix.Name = "btnHouseSix";
+            this.btnHouseSix.Size = new System.Drawing.Size(67, 42);
+            this.btnHouseSix.TabIndex = 7;
+            this.btnHouseSix.Text = "House 6";
+            this.btnHouseSix.UseVisualStyleBackColor = false;
+            this.btnHouseSix.Click += new System.EventHandler(this.btnHouseSix_Click);
             // 
             // btnExit
             // 
@@ -223,59 +278,60 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
-            // button5
+            // btnHouseFive
             // 
-            this.button5.Location = new System.Drawing.Point(313, 21);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(76, 40);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnHouseFive.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnHouseFive.Location = new System.Drawing.Point(313, 21);
+            this.btnHouseFive.Name = "btnHouseFive";
+            this.btnHouseFive.Size = new System.Drawing.Size(76, 40);
+            this.btnHouseFive.TabIndex = 4;
+            this.btnHouseFive.Text = "House 5";
+            this.btnHouseFive.UseVisualStyleBackColor = false;
+            this.btnHouseFive.Click += new System.EventHandler(this.btnHouseFive_Click);
             // 
-            // button4
+            // btnHouseFour
             // 
-            this.button4.Location = new System.Drawing.Point(240, 19);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(67, 42);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnHouseFour.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnHouseFour.Location = new System.Drawing.Point(240, 19);
+            this.btnHouseFour.Name = "btnHouseFour";
+            this.btnHouseFour.Size = new System.Drawing.Size(67, 42);
+            this.btnHouseFour.TabIndex = 3;
+            this.btnHouseFour.Text = "House  4";
+            this.btnHouseFour.UseVisualStyleBackColor = false;
+            this.btnHouseFour.Click += new System.EventHandler(this.btnHouseFour_Click);
             // 
-            // button3
+            // btnHouseThree
             // 
-            this.button3.Location = new System.Drawing.Point(167, 19);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(67, 42);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnHouseThree.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnHouseThree.Location = new System.Drawing.Point(167, 19);
+            this.btnHouseThree.Name = "btnHouseThree";
+            this.btnHouseThree.Size = new System.Drawing.Size(67, 42);
+            this.btnHouseThree.TabIndex = 2;
+            this.btnHouseThree.Text = "House 3";
+            this.btnHouseThree.UseVisualStyleBackColor = false;
+            this.btnHouseThree.Click += new System.EventHandler(this.btnHouseThree_Click);
             // 
-            // button2
+            // btnHouseTwo
             // 
-            this.button2.Location = new System.Drawing.Point(94, 19);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(67, 42);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnHouseTwo.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnHouseTwo.Location = new System.Drawing.Point(94, 19);
+            this.btnHouseTwo.Name = "btnHouseTwo";
+            this.btnHouseTwo.Size = new System.Drawing.Size(67, 42);
+            this.btnHouseTwo.TabIndex = 1;
+            this.btnHouseTwo.Text = "House 2";
+            this.btnHouseTwo.UseVisualStyleBackColor = false;
+            this.btnHouseTwo.Click += new System.EventHandler(this.btnHouseTwo_Click);
             // 
-            // button1
+            // btnHouseOne
             // 
-            this.button1.Location = new System.Drawing.Point(21, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(67, 42);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // label3
-            // 
-            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label3.Location = new System.Drawing.Point(12, 247);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(539, 10);
-            this.label3.TabIndex = 30;
-            this.label3.Text = "label3";
+            this.btnHouseOne.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnHouseOne.Location = new System.Drawing.Point(21, 19);
+            this.btnHouseOne.Name = "btnHouseOne";
+            this.btnHouseOne.Size = new System.Drawing.Size(67, 42);
+            this.btnHouseOne.TabIndex = 0;
+            this.btnHouseOne.Text = "House 1";
+            this.btnHouseOne.UseVisualStyleBackColor = false;
+            this.btnHouseOne.Click += new System.EventHandler(this.btnHouseOne_Click);
             // 
             // label2
             // 
@@ -295,50 +351,14 @@
             this.label1.TabIndex = 28;
             this.label1.Text = "label1";
             // 
-            // button8
+            // label3
             // 
-            this.button8.Location = new System.Drawing.Point(313, 167);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(76, 40);
-            this.button8.TabIndex = 11;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(240, 165);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(67, 42);
-            this.button9.TabIndex = 10;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = true;
-            // 
-            // button10
-            // 
-            this.button10.Location = new System.Drawing.Point(167, 165);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(67, 42);
-            this.button10.TabIndex = 9;
-            this.button10.Text = "button10";
-            this.button10.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(94, 165);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(67, 42);
-            this.button11.TabIndex = 8;
-            this.button11.Text = "button11";
-            this.button11.UseVisualStyleBackColor = true;
-            // 
-            // button12
-            // 
-            this.button12.Location = new System.Drawing.Point(21, 165);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(67, 42);
-            this.button12.TabIndex = 7;
-            this.button12.Text = "button12";
-            this.button12.UseVisualStyleBackColor = true;
+            this.label3.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.Location = new System.Drawing.Point(12, 247);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(539, 10);
+            this.label3.TabIndex = 30;
+            this.label3.Text = "label3";
             // 
             // Form1
             // 
@@ -385,18 +405,18 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.ListBox lbOutputList;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button btnHouseTen;
+        private System.Windows.Forms.Button btnHouseNine;
+        private System.Windows.Forms.Button btnHouseEight;
+        private System.Windows.Forms.Button btnHouseSeven;
+        private System.Windows.Forms.Button btnHouseSix;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnClear;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnHouseFive;
+        private System.Windows.Forms.Button btnHouseFour;
+        private System.Windows.Forms.Button btnHouseThree;
+        private System.Windows.Forms.Button btnHouseTwo;
+        private System.Windows.Forms.Button btnHouseOne;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
